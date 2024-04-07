@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @matiasmolinas
 - 👀 I’m interested in machine learning, NLP, Transformers and how to use them on a simple project management tool
 - 🌱 I’m currently learning more about Trasnformers
-- 💞️ I’m looking looking for collaborators for my project https://github.com/matiasmolinas/project-copilot
+- 💞️ I’m looking looking for collaborators for my project[https://github.com/nebuah/nebuah](https://github.com/nebuah/nebuah)
 - 📫 How to reach me Twitter @matiasmolinas
 
 <!---
