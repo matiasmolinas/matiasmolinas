@@ -1,10 +1,20 @@
-👋 Hi, I’m Matías Molinas (@matiasmolinas)
-  
-👀 I’m passionate about Machine Learning, NLP, and Transformers, and how they can be applied to build smarter project management tools. My goal is to simplify workflows by leveraging cutting-edge AI technologies.
-  
-🌱 Currently, I’m diving deeper into Transformers, Prompt Engineering, and AI Agents, exploring innovative ways to integrate these technologies into real-world applications.
-  
-💬 Feel free to reach out if you want to collaborate or discuss AI and project management tools! You can find me on Twitter [@matiasmolinas](https://twitter.com/matiasmolinas).
+# 👋 Hi, I’m Matías Molinas (@matiasmolinas)
+
+🧠 I create evolving, goal-driven AI systems that orchestrate tools and agents to perform complex tasks — autonomously.  
+I'm the creator of the **[Evolving Agents Toolkit (EAT)](https://github.com/matiasmolinas/evolving-agents)** — an open-source Python framework for building adaptive, multi-agent systems designed for **AI-First workflows**.
+
+### 🚀 What I'm Working On
+- **EAT**: Build systems that go beyond prompt chains. With a central SystemAgent, SmartLibrary, SmartAgentBus, and evolution tools, EAT enables true agent orchestration and self-improvement.
+- Designing architectures that **learn, adapt, and improve** based on feedback — with modular integration of OpenAI, BeeAI, LangChain, and more.
+- Exploring use cases in automation, project management, educational content creation, and complex reasoning workflows.
+
+### 🌍 Previously
+- Created **Project Copilot**, an AI Project Manager that turns conversations and documents into structured backlogs.
+- Built 3D medical visualization systems, ML models for healthcare, and prompt workflow engines before it was cool.
+
+### 🤝 Let’s Connect
+I'm always up to discuss AI agents, adaptive systems, or open-source collaboration.  
+Find me on Twitter: [@matiasmolinas](https://twitter.com/matiasmolinas)
 
 <!---
 matiasmolinas/matiasmolinas is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
