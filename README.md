@@ -31,6 +31,26 @@ residual stream to catch memory-injection payloads written in words a keyword fi
 likes. Nine hard pairs at 0.657 lexical overlap, p=0.0195; an adapter trojan scanner at
 12/12, p=0.0002.
 
+### Where that points: an LLM as a bytecode generator
+
+The first mechanism reads as engineering taste until the output moves something.
+A model driving a robot is already emitting near-bytecode — in
+[skillos_robot](https://github.com/EvolvingAgentsLabs/skillos_robot) a
+vision-language model plans at roughly 1 Hz and a reactive controller turns that
+into bytecode on a UDP link to an ESP32 at 20 Hz. A malformed JSON in a chatbot
+is a retry. A malformed motor command is a robot hitting something.
+
+Right now the two halves are the wrong way round: the robot and token-trie emit
+the *same wire format* — the opcode regex is character-for-character identical,
+they were one codebase — but only token-trie enforces it. The validated
+mechanism runs a Tetris demo; the unvalidated one drives motors, and I have a
+recording of it degenerating into 28 unparseable opcodes when a provider capped
+stop sequences.
+
+Fixing that needs per-token probabilities, which cloud APIs do not expose. So it
+**forces** a local model — which is the position the work already argued for.
+That is what I am building next.
+
 ### And what didn't
 
 sleep-harness pre-registers its hypotheses. Its founding one — that filtering by
